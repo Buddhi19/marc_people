@@ -13,7 +13,7 @@ jobs:
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.SITE_REPO_TOKEN }}
-          repository: pdnMARC/marc_site
+          repository: pdnMARC/pdnmarc.github.io
           event-type: content-update
           client-payload: |
             {"source": "marc_people"}
